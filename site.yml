@@ -1,0 +1,8 @@
+---
+
+- name: apply pi configuration to all Raspberry Pi nodes
+  hosts: pi
+  user: root
+
+  roles:
+    - pi
