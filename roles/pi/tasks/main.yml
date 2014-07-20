@@ -4,3 +4,6 @@
 
 - name: 'Upgrade APT to the latest packages'
   action: apt upgrade=safe
+
+- name: 'Remove all dependenices no longer required'
+  shell: apt-get autoremove
