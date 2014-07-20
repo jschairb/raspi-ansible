@@ -9,7 +9,7 @@
 - name: Turn off accelerated X framebuffer
   command: sudo mv /usr/share/11/xorg.conf.d/99-fbturbo.conf ~
 
-touch_kernel_modules:
+- touch_kernel_modules:
     - url: http://adafruit-download.s3.amazonaws.com/libraspberrypi-bin-adafruit.deb,
       name: libraspberrypi-bin-adafruit.deb
     - url: http://adafruit-download.s3.amazonaws.com/libraspberrypi-dev-adafruit.deb,
