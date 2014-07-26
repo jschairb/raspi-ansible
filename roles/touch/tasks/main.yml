@@ -10,13 +10,13 @@
   command: sudo mv /usr/share/11/xorg.conf.d/99-fbturbo.conf ~
 
 - touch_kernel_modules:
-    - url: http://adafruit-download.s3.amazonaws.com/libraspberrypi-bin-adafruit.deb,
-      name: libraspberrypi-bin-adafruit.deb
-    - url: http://adafruit-download.s3.amazonaws.com/libraspberrypi-dev-adafruit.deb,
-      name: libraspberrypi-dev-adafruit.deb
-    - url: http://adafruit-download.s3.amazonaws.com/libraspberrypi-doc-adafruit.deb,
-      name: libraspberrypi-doc-adafruit.deb
-    - url: http://adafruit-download.s3.amazonaws.com/libraspberrypi0-adafruit.deb,
-      name: libraspberrypi0-adafruit.deb
-    - url: http://adafruit-download.s3.amazonaws.com/raspberrypi-bootloader-adafruit-112613.deb,
-      name: raspberrypi-bootloader-adafruit-112613.deb
+  - url: http://adafruit-download.s3.amazonaws.com/libraspberrypi-bin-adafruit.deb,
+    name: libraspberrypi-bin-adafruit.deb
+  - url: http://adafruit-download.s3.amazonaws.com/libraspberrypi-dev-adafruit.deb,
+    name: libraspberrypi-dev-adafruit.deb
+  - url: http://adafruit-download.s3.amazonaws.com/libraspberrypi-doc-adafruit.deb,
+    name: libraspberrypi-doc-adafruit.deb
+  - url: http://adafruit-download.s3.amazonaws.com/libraspberrypi0-adafruit.deb,
+    name: libraspberrypi0-adafruit.deb
+  - url: http://adafruit-download.s3.amazonaws.com/raspberrypi-bootloader-adafruit-112613.deb,
+    name: raspberrypi-bootloader-adafruit-112613.deb
