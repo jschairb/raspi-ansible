@@ -1,6 +1,6 @@
 ---
 - name: download touch kernel modules
-  get_url: url={{ item.url }} dest=/usr/local/src/pitft/ mode=0440
+  get_url: url={{ item }} dest=/usr/local/src/pitft/ mode=0440
   with_items:
     - http://adafruit-download.s3.amazonaws.com/libraspberrypi-bin-adafruit.deb
     - http://adafruit-download.s3.amazonaws.com/libraspberrypi-dev-adafruit.deb
